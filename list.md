@@ -1,3 +1,4 @@
+```python
 from django.shortcuts import render,redirect
 from webtest.models import GoodsInfo, TypeInfo
 from usertest.models import UserInfo
@@ -117,3 +118,6 @@ def list(request, id,page_num,order_str):
            }
 
     return render(request, 'good/list.html',dict1 )
+
+```
+
